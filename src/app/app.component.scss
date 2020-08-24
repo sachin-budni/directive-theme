@@ -1,0 +1,30 @@
+.app-wrapper {
+    background-color: var(--background);
+    color: var(--text-color);
+  }
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .options{
+    background: var(--background);
+    color: var(--text-color);
+  }
+  .options:hover {
+    // background: white;
+    // color: black;
+    background: var(--text-color);
+    color: var(--background);
+  }
+  .options.mat-option.mat-active {
+    background: var(--text-color);
+    color: var(--background);
+  }
+  
